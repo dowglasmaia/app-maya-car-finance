@@ -1,5 +1,4 @@
 <section class="catalog" id="catalog">
-
   <div class="content">
     <div class="search">
       <div class="title-wrapper-catalog">
@@ -11,11 +10,11 @@
         <input type="text" class="search-input" placeholder="Choose you favorite model">
         <button class="search-button">Search</button>
       </div>
-
     </div>
 
+    <div class="card-oferta" *ngFor="let oferta of ofertas">
+      <app-card-car [oferta]="oferta"></app-card-car>
+    </div>
 
   </div>
-
-
 </section>
