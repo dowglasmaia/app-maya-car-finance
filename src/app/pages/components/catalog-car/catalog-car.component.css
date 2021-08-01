@@ -4,7 +4,7 @@
 }
 
 /*---------------*/
-.search{
+.search {
   max-width: 980px;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
   text-indent: 10px;
 }
 
-.search-button{
+.search-button {
   width: 150px;
   height: 50px;
   border-radius: 0px 8px 8px 0px;
@@ -40,15 +40,26 @@
   background: var(--blue);
   font-size: 1.1em;
   cursor: pointer;
-  transition: 0.3ms ease ;
+  transition: 0.3ms ease;
 }
 
-.search-button:hover{
+.search-button:hover {
   background: #dedede;
   color: var(--blue);
 }
 
-.title-wrapper-catalog{
+.title-wrapper-catalog {
   margin-top: 150px;
   padding-bottom: 20px;
+}
+
+.card-oferta {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 30px;
+  padding-top: 50px;
+
 }

@@ -12,8 +12,10 @@
       </div>
     </div>
 
-    <div class="card-oferta" *ngFor="let oferta of ofertas">
-      <app-card-car [oferta]="oferta"></app-card-car>
+    <div class="card-oferta" >
+      <div *ngFor="let oferta of ofertas">
+        <app-card-car [oferta]="oferta"></app-card-car>
+      </div>
     </div>
 
   </div>

@@ -26,6 +26,14 @@ export class CatalogCarComponent implements OnInit {
       quantidadeParcelas: 48,
       anoVeiculo: "2019",
       km: 89.00
+    },
+    {
+      modelo: "Voyage 1.8 Flex",
+      valor: 40.009,
+      valorParcelaMes: 900.08,
+      quantidadeParcelas: 48,
+      anoVeiculo: "2019",
+      km: 89.00
     }
   ];
 

@@ -20,3 +20,12 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
+.content {
+  max-width: 100%;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
